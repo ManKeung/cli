@@ -1,0 +1,9 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "cli!",
+  "main": "index.js",
+  "author": "Mankeung",
+  "license": "MIT",
+  "private": true
+}

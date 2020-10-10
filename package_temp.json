@@ -1,0 +1,9 @@
+{
+  "name": "{{projectName}",
+  "version": "{{projectVersion}",
+  "description": "{{projectDescription}",
+  "main": "index.js",
+  "author": "{{author}",
+  "license": "MIT",
+  "private": true
+}
