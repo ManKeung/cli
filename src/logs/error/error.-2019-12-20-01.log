@@ -1,0 +1,29 @@
+[2019-12-20T01:01:39.807] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /user/file
+request client ip:  ::1
+request body: 
+{}
+response time: 22
+err name: MulterError
+err message: Unexpected field
+err stack: MulterError: Unexpected field
+    at wrappedFileFilter (/home/mankeung/koa2/node_modules/multer/index.js:40:19)
+    at Busboy.<anonymous> (/home/mankeung/koa2/node_modules/multer/lib/make-middleware.js:114:7)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/home/mankeung/koa2/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/home/mankeung/koa2/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/home/mankeung/koa2/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/home/mankeung/koa2/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/home/mankeung/koa2/node_modules/dicer/lib/HeaderParser.js:40:12)
+    at SBMH.emit (events.js:210:5)
+    at SBMH._sbmh_feed (/home/mankeung/koa2/node_modules/streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/home/mankeung/koa2/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at HeaderParser.push (/home/mankeung/koa2/node_modules/dicer/lib/HeaderParser.js:46:19)
+    at Dicer._oninfo (/home/mankeung/koa2/node_modules/dicer/lib/Dicer.js:197:25)
+    at SBMH.<anonymous> (/home/mankeung/koa2/node_modules/dicer/lib/Dicer.js:127:10)
+*************** error log end ***************
+

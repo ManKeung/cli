@@ -1,0 +1,12 @@
+[2020-06-18T14:18:21.557] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /qr/png
+request client ip:  ::1
+request query:  {}
+response time: 34
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"emitClose":true,"autoDestroy":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrainWriters":null,"multiAwaitDrain":false,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"_events":{},"_eventsCount":1}
+*************** response log end ***************
+

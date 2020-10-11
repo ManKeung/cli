@@ -1,0 +1,24 @@
+[2019-12-20T01:37:13.023] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 401
+response body: 
+{"error":"Authentication Error"}
+*************** response log end ***************
+
+[2019-12-20T01:39:52.843] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /html/index.html
+request client ip:  ::1
+request query:  {}
+response time: 5
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"paused":true,"emitClose":false,"autoDestroy":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"_events":{},"_eventsCount":2,"path":"/home/mankeung/koa2/static/html/index.html","fd":null,"flags":"r","mode":438,"end":null,"autoClose":true,"bytesRead":0,"closed":false}
+*************** response log end ***************
+

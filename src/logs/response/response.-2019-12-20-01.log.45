@@ -1,0 +1,48 @@
+[2019-12-20T01:26:41.243] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 401
+response body: 
+{"error":"Authentication Error"}
+*************** response log end ***************
+
+[2019-12-20T01:27:31.857] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /qr/bar
+request client ip:  ::1
+request query:  {}
+response time: 15
+response status: 200
+response body: 
+false
+*************** response log end ***************
+
+[2019-12-20T01:27:33.127] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 3
+response status: 401
+response body: 
+{"error":"Authentication Error"}
+*************** response log end ***************
+
+[2019-12-20T01:28:03.387] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /qr/bar
+request client ip:  ::1
+request query:  {}
+response time: 12
+response status: 200
+response body: 
+false
+*************** response log end ***************
+
