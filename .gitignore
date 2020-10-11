@@ -1,23 +1,21 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
+# Logs
+logs
+*.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+node_modules/
+typings/
+.npm
+.eslintcache
+.node_repl_history
+
+# dotenv environment variables file
+.env
+
+# next.js build output
+.next
+
+.DS_Store
+.history/*
+dist
+package-lock.json
+back
