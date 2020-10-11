@@ -2,8 +2,84 @@
   "name": "{{projectName}}",
   "version": "{{projectVersion}}",
   "description": "{{projectDescription}}",
-  "main": "index.js",
+  "private": true,
   "author": "{{author}}",
-  "license": "MIT",
-  "private": true
+  "dependencies": {
+    "@loadable/component": "^5.11.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.0",
+    "immutable": "^4.0.0-rc.12",
+    "jsonp": "^0.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.0",
+    "react-transition-group": "^4.3.0",
+    "redux": "^4.0.4",
+    "redux-immutable": "^4.0.0",
+    "redux-saga": "^1.1.3",
+    "viewport-units-buggyfill": "^0.6.2"
+  },
+  "homepage": ".",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "serve": "cross-env REACT_APP_ENV=development react-app-rewired start",
+    "build:test": "cross-env REACT_APP_ENV=test react-app-rewired build",
+    "build:pro": "cross-env REACT_APP_ENV=production react-app-rewired build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "rules": {
+      "semi": [
+        "warn",
+        "never"
+      ],
+      "eqeqeq": "off",
+      "eol-last": "error",
+      "comma-spacing": "error",
+      "key-spacing": [
+        "warn",
+        {
+          "beforeColon": false,
+          "afterColon": true
+        }
+      ],
+      "jsx-a11y/anchor-has-content": "off",
+      "jsx-a11y/anchor-is-valid": "off"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.7.4",
+    "cross-env": "^6.0.3",
+    "cssnano": "^4.1.10",
+    "cssnano-preset-advanced": "^4.0.7",
+    "customize-cra": "^0.9.1",
+    "mockjs": "^1.1.0",
+    "node-sass": "^4.13.0",
+    "postcss-aspect-ratio-mini": "^1.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "postcss-viewport-units": "^0.1.6",
+    "postcss-write-svg": "^3.0.1",
+    "react-app-rewired": "^2.1.5",
+    "redux-logger": "^3.0.6"
+  }
 }
