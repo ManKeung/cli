@@ -57,3 +57,20 @@ mk init projectName[项目名称] | mk i projectName[项目名称]
 # 2. 下载模板
 # 3. 根据提示输入package.json参数
 ```
+
+## 基础模板
+
+模板名 | 描述 | 分支
+--- | --- | ---
+init | 空模板 | init
+gulp | gulp配置 | gulp
+webpack | webpack4配置 | webpack
+webpack-ts | webpack-ts配置 | webpack-ts
+vue | vue配置 | vue
+vue-admin | vue后台管理 | vue-admin
+vue-ts | vue-ts配置 | vue-ts
+react | react配置 | react
+react-ts | react-ts配置 | react-ts
+koa | koa | koa
+koa-ts | koa-ts配置 | koa-ts
+koa-page-ts | koa-page-ts配置 | koa-page-ts

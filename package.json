@@ -11,6 +11,7 @@
     "type": "git",
     "url": "https://github.com/ManKeung/cli"
   },
+  "description": "个人快速开发项目基础模板搭建",
   "keywords": [
     "koa",
     "react",
