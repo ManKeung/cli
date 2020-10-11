@@ -1,0 +1,119 @@
+@font-face {
+    font-family: my-icons;
+    src: url("my-icons.eot");src: url("my-icons.eot?7e056e4b#iefix") format("embedded-opentype"),
+             url("my-icons.woff2?7e056e4b") format("woff2"),
+             url("my-icons.woff?7e056e4b") format("woff"),
+             url("my-icons.ttf?7e056e4b") format("truetype"),
+             url("my-icons.svg?7e056e4b#my-icons") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="ico"], [class*=" ico"] {
+    font-family: 'my-icons' !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+}
+
+
+.ico-comment::before {
+    content: "\ea01";
+}
+
+.ico-dashboard::before {
+    content: "\ea02";
+}
+
+.ico-demand::before {
+    content: "\ea03";
+}
+
+.ico-example::before {
+    content: "\ea04";
+}
+
+.ico-exit-fullscreen::before {
+    content: "\ea05";
+}
+
+.ico-eye-open::before {
+    content: "\ea06";
+}
+
+.ico-eye::before {
+    content: "\ea07";
+}
+
+.ico-form::before {
+    content: "\ea08";
+}
+
+.ico-fullscreen::before {
+    content: "\ea09";
+}
+
+.ico-link::before {
+    content: "\ea0a";
+}
+
+.ico-manu::before {
+    content: "\ea0b";
+}
+
+.ico-nested::before {
+    content: "\ea0c";
+}
+
+.ico-password::before {
+    content: "\ea0d";
+}
+
+.ico-rank::before {
+    content: "\ea0e";
+}
+
+.ico-report::before {
+    content: "\ea0f";
+}
+
+.ico-review::before {
+    content: "\ea10";
+}
+
+.ico-score::before {
+    content: "\ea11";
+}
+
+.ico-table::before {
+    content: "\ea12";
+}
+
+.ico-task-list::before {
+    content: "\ea13";
+}
+
+.ico-task::before {
+    content: "\ea14";
+}
+
+.ico-tasklist_fill::before {
+    content: "\ea15";
+}
+
+.ico-tree::before {
+    content: "\ea16";
+}
+
+.ico-user::before {
+    content: "\ea17";
+}
+
+.ico-user_img::before {
+    content: "\ea18";
+}
+
+.ico-waituse::before {
+    content: "\ea19";
+}
+

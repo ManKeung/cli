@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <p>Hello webpack!</p>
+    <p>mankeung</p>
+    <button onclick="alert(1);">点击</button>
+    <img src="<%= require('../src/assets/webpack.png')%>" data-src="<%= require('../src/assets/webpack.png')%>" alt="">
+  </div>
+  <script src="<%= htmlWebpackPlugin.options.vendor %>"></script>
+</body>
+</html>
