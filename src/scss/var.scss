@@ -1,0 +1,23 @@
+// 高度
+$appHeader: 60px;
+$appAside: 240px;
+$padding: 20px;
+
+// 颜色
+$bacgroundColor: #f0f2f5;
+$colorDialog: #909399;
+$borderColor: #F2F6FC;
+$fontColor: #303133;
+
+// 主题色
+$baseColor: #087bfd;
+$activeTxtTopBar: #ffffff;
+$txtTopBar: #89c1ff;
+
+:export {
+  appHeader: $appHeader;
+  appAside: $appAside;
+  baseColor: $baseColor;
+  activeTxtTopBar: $activeTxtTopBar;
+  txtTopBar: $txtTopBar;
+}
