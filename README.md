@@ -71,6 +71,10 @@ vue-admin | vue后台管理 | vue-admin
 vue-ts | vue-ts配置 | vue-ts
 react | react配置 | react
 react-ts | react-ts配置 | react-ts
-koa | koa | koa
+koa | koa配置 | koa
 koa-ts | koa-ts配置 | koa-ts
 koa-page-ts | koa-page-ts配置 | koa-page-ts
+
+## 注意事项
+
+koa, gulp模板 config文件下 index.js 配置请填写自己相关账号
