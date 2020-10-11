@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+</head>
+
+<body>
+    <h2>这是一个koa-art-template</h2>
+    <hr />
+    <!-- 绑定数据 -->
+    <%=list.name%>
+    <hr />
+    <!-- 原文输出 -->
+    <%-list.h%>
+    <hr />
+    <!-- 条件 -->
+    <%if(list.num > 24) {%>
+    大于24
+    <%}else{%>
+    小于24
+    <%}%>
+    <hr/>
+    <!-- 循环数据 -->
+    <ul>
+    <%for(let i=0; i<list.arr.length; i++) {%>
+    <li><%=list.arr[i]%></li>
+    <%}%>
+    </ul>
+    <hr/>
+    <!-- 子模块 -->
+    <% include('./public/footer.html')%>
+</body>
+
+</html>
